@@ -1,0 +1,18 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NITRO_PRESET = "netlify"
+  NODE_VERSION = "20"
+  SUPABASE_PROJECT_ID = "zvarqbhkudfvvgxmdgup"
+  SUPABASE_URL = "https://zvarqbhkudfvvgxmdgup.supabase.co"
+  SUPABASE_PUBLISHABLE_KEY = "sb_publishable_CFWqbds73PyQ4D5jfxNpHA_9L6ITcry"
+  VITE_SUPABASE_PROJECT_ID = "zvarqbhkudfvvgxmdgup"
+  VITE_SUPABASE_URL = "https://zvarqbhkudfvvgxmdgup.supabase.co"
+  VITE_SUPABASE_PUBLISHABLE_KEY = "sb_publishable_CFWqbds73PyQ4D5jfxNpHA_9L6ITcry"
+
+[[redirects]]
+  from = "/~oauth/*"
+  to = "/"
+  status = 302
